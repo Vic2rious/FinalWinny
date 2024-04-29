@@ -43,9 +43,12 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(292, 45);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Microsoft YaHei", 36.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label1.ForeColor = Color.Red;
+            label1.Location = new Point(162, 19);
             label1.Name = "label1";
-            label1.Size = new Size(106, 15);
+            label1.Size = new Size(505, 65);
             label1.TabIndex = 0;
             label1.Text = "Taxi is on your way";
             label1.Click += label1_Click;
@@ -53,18 +56,25 @@
             // timeLeftLabel
             // 
             timeLeftLabel.AutoSize = true;
-            timeLeftLabel.Location = new Point(292, 106);
+            timeLeftLabel.BackColor = Color.Transparent;
+            timeLeftLabel.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            timeLeftLabel.ForeColor = Color.Red;
+            timeLeftLabel.Location = new Point(456, 84);
             timeLeftLabel.Name = "timeLeftLabel";
-            timeLeftLabel.Size = new Size(53, 15);
+            timeLeftLabel.Size = new Size(175, 46);
             timeLeftLabel.TabIndex = 0;
             timeLeftLabel.Text = "Time left";
+            timeLeftLabel.Click += timeLeftLabel_Click;
             // 
             // time
             // 
             time.AutoSize = true;
-            time.Location = new Point(292, 142);
+            time.BackColor = Color.Transparent;
+            time.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            time.ForeColor = Color.Red;
+            time.Location = new Point(447, 146);
             time.Name = "time";
-            time.Size = new Size(18, 15);
+            time.Size = new Size(54, 46);
             time.TabIndex = 0;
             time.Text = "m";
             time.Click += time_Click;
@@ -72,39 +82,49 @@
             // DriverName
             // 
             DriverName.AutoSize = true;
-            DriverName.Location = new Point(292, 212);
+            DriverName.BackColor = Color.Transparent;
+            DriverName.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            DriverName.ForeColor = Color.Red;
+            DriverName.Location = new Point(456, 190);
             DriverName.Name = "DriverName";
-            DriverName.Size = new Size(38, 15);
+            DriverName.Size = new Size(128, 46);
             DriverName.TabIndex = 0;
             DriverName.Text = "Driver";
             // 
             // licensePlate
             // 
             licensePlate.AutoSize = true;
-            licensePlate.Location = new Point(292, 256);
+            licensePlate.BackColor = Color.Transparent;
+            licensePlate.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            licensePlate.ForeColor = Color.Red;
+            licensePlate.Location = new Point(456, 234);
             licensePlate.Name = "licensePlate";
-            licensePlate.Size = new Size(75, 15);
+            licensePlate.Size = new Size(245, 46);
             licensePlate.TabIndex = 0;
             licensePlate.Text = "License Plate";
             // 
             // cancelButton
             // 
+            cancelButton.BackColor = Color.Transparent;
+            cancelButton.ForeColor = Color.Red;
             cancelButton.Location = new Point(283, 350);
             cancelButton.Name = "cancelButton";
             cancelButton.Size = new Size(75, 23);
             cancelButton.TabIndex = 1;
             cancelButton.Text = "Cancel";
-            cancelButton.UseVisualStyleBackColor = true;
+            cancelButton.UseVisualStyleBackColor = false;
             cancelButton.Click += cancelButton_Click;
             // 
             // ExitButton
             // 
+            ExitButton.BackColor = Color.Transparent;
+            ExitButton.ForeColor = Color.Red;
             ExitButton.Location = new Point(431, 350);
             ExitButton.Name = "ExitButton";
             ExitButton.Size = new Size(75, 23);
             ExitButton.TabIndex = 2;
             ExitButton.Text = "Exit";
-            ExitButton.UseVisualStyleBackColor = true;
+            ExitButton.UseVisualStyleBackColor = false;
             ExitButton.Click += ExitButton_Click;
             // 
             // timer1
@@ -116,9 +136,12 @@
             // seconds
             // 
             seconds.AutoSize = true;
-            seconds.Location = new Point(318, 142);
+            seconds.BackColor = Color.Transparent;
+            seconds.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            seconds.ForeColor = Color.Red;
+            seconds.Location = new Point(547, 146);
             seconds.Name = "seconds";
-            seconds.Size = new Size(12, 15);
+            seconds.Size = new Size(37, 46);
             seconds.TabIndex = 0;
             seconds.Text = "s";
             seconds.Click += time_Click;
@@ -127,7 +150,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.pngtree_vibrant_3d_yellow_taxi_symbol_with_map_pointer_convenient_app_for_image_3650810;
+            ClientSize = new Size(800, 379);
             Controls.Add(ExitButton);
             Controls.Add(cancelButton);
             Controls.Add(licensePlate);

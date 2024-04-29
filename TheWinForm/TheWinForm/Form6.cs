@@ -47,7 +47,7 @@ namespace TheWinForm
         {
             time.Text = (theOrder.arrivalTime / 60).ToString() + ":";
             seconds.Text = (theOrder.arrivalTime % 60).ToString();
-            theOrder.arrivalTime-=45;
+            theOrder.arrivalTime -= 45;
 
             if (theOrder.arrivalTime < 0)
             {
@@ -61,6 +61,11 @@ namespace TheWinForm
             theOrder.setRating("Canceled");
             new Form4(theOrder.User).Show();
             this.Close();
+        }
+
+        private void timeLeftLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -121,7 +121,7 @@ namespace TheWinForm
 
                         try
                         {
-                            using (cmd = new SqlCommand($"SELECT TOP 1 * FROM rides1 WHERE car_id = '{this.carId}' ", cn))
+                            using (cmd = new SqlCommand($"SELECT TOP 1 * FROM rides1 WHERE car_id = '{this.carId}' AND start_destination = '{this.startDestination}' AND end_destination = '{this.endDestination}'", cn))
                             {
                                 using (var reader = cmd.ExecuteReader())
                                 {

@@ -41,97 +41,121 @@
             // radioButton1
             // 
             radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(299, 62);
+            radioButton1.BackColor = Color.Transparent;
+            radioButton1.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            radioButton1.ForeColor = Color.Red;
+            radioButton1.Location = new Point(462, 23);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(75, 19);
+            radioButton1.Size = new Size(212, 50);
             radioButton1.TabIndex = 0;
             radioButton1.TabStop = true;
             radioButton1.Text = "Very poor";
-            radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.UseVisualStyleBackColor = false;
             radioButton1.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // radioButton2
             // 
             radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(299, 87);
+            radioButton2.BackColor = Color.Transparent;
+            radioButton2.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            radioButton2.ForeColor = Color.Red;
+            radioButton2.Location = new Point(462, 79);
             radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(50, 19);
+            radioButton2.Size = new Size(122, 50);
             radioButton2.TabIndex = 0;
             radioButton2.TabStop = true;
             radioButton2.Text = "Poor";
-            radioButton2.UseVisualStyleBackColor = true;
+            radioButton2.UseVisualStyleBackColor = false;
             radioButton2.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // radioButton3
             // 
             radioButton3.AutoSize = true;
-            radioButton3.Location = new Point(299, 112);
+            radioButton3.BackColor = Color.Transparent;
+            radioButton3.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            radioButton3.ForeColor = Color.Red;
+            radioButton3.Location = new Point(462, 135);
             radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(44, 19);
+            radioButton3.Size = new Size(103, 50);
             radioButton3.TabIndex = 0;
             radioButton3.TabStop = true;
             radioButton3.Text = "Fair";
-            radioButton3.UseVisualStyleBackColor = true;
+            radioButton3.UseVisualStyleBackColor = false;
             radioButton3.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // radioButton4
             // 
             radioButton4.AutoSize = true;
-            radioButton4.Location = new Point(299, 137);
+            radioButton4.BackColor = Color.Transparent;
+            radioButton4.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            radioButton4.ForeColor = Color.Red;
+            radioButton4.Location = new Point(462, 191);
             radioButton4.Name = "radioButton4";
-            radioButton4.Size = new Size(54, 19);
+            radioButton4.Size = new Size(134, 50);
             radioButton4.TabIndex = 0;
             radioButton4.TabStop = true;
             radioButton4.Text = "Good";
-            radioButton4.UseVisualStyleBackColor = true;
+            radioButton4.UseVisualStyleBackColor = false;
             radioButton4.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // radioButton5
             // 
             radioButton5.AutoSize = true;
-            radioButton5.Location = new Point(299, 162);
+            radioButton5.BackColor = Color.Transparent;
+            radioButton5.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            radioButton5.ForeColor = Color.Red;
+            radioButton5.Location = new Point(462, 239);
             radioButton5.Name = "radioButton5";
-            radioButton5.Size = new Size(72, 19);
+            radioButton5.Size = new Size(194, 50);
             radioButton5.TabIndex = 0;
             radioButton5.TabStop = true;
             radioButton5.Text = "Excellent";
-            radioButton5.UseVisualStyleBackColor = true;
+            radioButton5.UseVisualStyleBackColor = false;
             radioButton5.CheckedChanged += radioButton1_CheckedChanged;
             // 
             // finishButton
             // 
+            finishButton.BackColor = Color.Transparent;
+            finishButton.ForeColor = Color.Red;
             finishButton.Location = new Point(296, 291);
             finishButton.Name = "finishButton";
             finishButton.Size = new Size(75, 23);
             finishButton.TabIndex = 1;
             finishButton.Text = "Finish";
-            finishButton.UseVisualStyleBackColor = true;
+            finishButton.UseVisualStyleBackColor = false;
             finishButton.Click += finishButton_Click;
             // 
             // rateLabel
             // 
             rateLabel.AutoSize = true;
-            rateLabel.Location = new Point(296, 24);
+            rateLabel.BackColor = Color.Transparent;
+            rateLabel.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            rateLabel.ForeColor = Color.Red;
+            rateLabel.Location = new Point(90, 36);
             rateLabel.Name = "rateLabel";
-            rateLabel.Size = new Size(81, 15);
+            rateLabel.Size = new Size(272, 46);
             rateLabel.TabIndex = 2;
             rateLabel.Text = "Please rate us!";
             // 
             // BonusCheckBox
             // 
             BonusCheckBox.AutoSize = true;
+            BonusCheckBox.BackColor = Color.Transparent;
+            BonusCheckBox.BackgroundImageLayout = ImageLayout.None;
+            BonusCheckBox.ForeColor = Color.Red;
             BonusCheckBox.Location = new Point(406, 295);
             BonusCheckBox.Name = "BonusCheckBox";
             BonusCheckBox.Size = new Size(59, 19);
             BonusCheckBox.TabIndex = 3;
             BonusCheckBox.Text = "Bonus";
-            BonusCheckBox.UseVisualStyleBackColor = true;
+            BonusCheckBox.UseVisualStyleBackColor = false;
             // 
             // Form5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.pngtree_vibrant_3d_yellow_taxi_symbol_with_map_pointer_convenient_app_for_image_3650810;
+            ClientSize = new Size(800, 362);
             Controls.Add(BonusCheckBox);
             Controls.Add(rateLabel);
             Controls.Add(finishButton);

@@ -85,5 +85,10 @@ namespace TheWinForm
         {
             Application.Exit();
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

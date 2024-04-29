@@ -50,7 +50,8 @@ namespace TheWinForm
             if (BonusCheckBox.Checked)
             {
                 new Form2(theOrder.User).Show();
-            } else
+            }
+            else
             {
                 Application.Exit();
             }

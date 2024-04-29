@@ -133,6 +133,17 @@ namespace TheWinForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngtree_vibrant_3d_yellow_taxi_symbol_with_map_pointer_convenient_app_for_image_3650810 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-vibrant-3d-yellow-taxi-symbol-with-map-pointer-convenient-app-for-image_3" +
+                        "650810", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap User_icon_cp_svg {
             get {
                 object obj = ResourceManager.GetObject("User_icon-cp.svg", resourceCulture);
