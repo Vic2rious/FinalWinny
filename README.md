@@ -1,4 +1,4 @@
-# FinalWinny### TheWinForm Authentication System
+### TheWinForm Authentication System
 
 This C# code snippet demonstrates an authentication system and order processing logic designed for a WinForm application. Let's break down the structure and functionality of this code.
 
